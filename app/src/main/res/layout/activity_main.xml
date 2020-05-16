@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#009688"
+    tools:context=".RegisterActivity" >
+
+    <Button
+        android:id="@+id/button_register_photo"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:background="@drawable/rounded_select_photo_button"
+        app:layout_constraintBottom_toTopOf="@+id/edittext_username_resgister"
+        app:layout_constraintEnd_toEndOf="@+id/edittext_username_resgister"
+        app:layout_constraintStart_toStartOf="@+id/edittext_username_resgister"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="50dp"
+        android:text="SELECT A PHOTO"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+
+        />
+
+    <EditText
+        android:id="@+id/edittext_email_register"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/rounded_edittext_login_register"
+        android:hint="@string/email"
+        android:inputType="textEmailAddress"
+        android:padding="15sp"
+        app:layout_constraintEnd_toEndOf="@+id/edittext_username_resgister"
+        app:layout_constraintStart_toStartOf="@+id/edittext_username_resgister"
+        app:layout_constraintTop_toBottomOf="@+id/edittext_username_resgister" />
+
+    <EditText
+        android:id="@+id/edittext_username_resgister"
+        android:layout_width="0dp"
+        android:layout_height="50sp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:background="@drawable/rounded_edittext_login_register"
+        android:ems="10"
+        android:hint="@string/user_name"
+        android:inputType="textPersonName"
+        android:paddingLeft="15sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_register_photo" />
+
+    <EditText
+        android:id="@+id/edittext_password_resgister"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/rounded_edittext_login_register"
+        android:ems="10"
+        android:hint="@string/password"
+        android:inputType="textPassword"
+        android:paddingLeft="15sp"
+        app:layout_constraintEnd_toEndOf="@+id/edittext_email_register"
+        app:layout_constraintStart_toStartOf="@+id/edittext_email_register"
+        app:layout_constraintTop_toBottomOf="@+id/edittext_email_register" />
+
+    <Button
+        android:id="@+id/register_button_register"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="16dp"
+        android:text="register"
+        android:textStyle="bold"
+        android:background="@drawable/rounded_button_login_register"
+        android:textColor="@android:color/white"
+        app:layout_constraintEnd_toEndOf="@+id/edittext_password_resgister"
+        app:layout_constraintStart_toStartOf="@+id/edittext_password_resgister"
+        app:layout_constraintTop_toBottomOf="@+id/edittext_password_resgister" />
+
+    <TextView
+        android:id="@+id/textview_already_have_an_account"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Already have an acoount?"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="@+id/register_button_register"
+        app:layout_constraintStart_toStartOf="@+id/register_button_register"
+        app:layout_constraintTop_toBottomOf="@+id/register_button_register"
+        android:gravity="center_horizontal" />
+</androidx.constraintlayout.widget.ConstraintLayout>

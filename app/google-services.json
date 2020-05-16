@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "347965866040",
+    "firebase_url": "https://fir-authsample-72793.firebaseio.com",
+    "project_id": "fir-authsample-72793",
+    "storage_bucket": "fir-authsample-72793.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:347965866040:android:fc907c3f6c1f20107726cd",
+        "android_client_info": {
+          "package_name": "com.huawei.lbta_firebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "347965866040-kd52ka95s8vl5vddd0qbim5ksitdaio3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDW9csEBYKIIxeqHfMIdnfdcYNraz7QUfI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "347965866040-kd52ka95s8vl5vddd0qbim5ksitdaio3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

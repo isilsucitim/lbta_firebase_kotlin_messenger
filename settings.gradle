@@ -1,0 +1,2 @@
+rootProject.name='LBTA_Firebase'
+include ':app'
